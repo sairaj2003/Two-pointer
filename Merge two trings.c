@@ -24,6 +24,7 @@ int mergeString(char s1[],char s2[],int m,int n)
     {
         merge[k++]=s2[j++];
     }
+    merge[k] = '\0';    //terminate the string 
     printf("\nString after merging: %s", merge);
 }
 
